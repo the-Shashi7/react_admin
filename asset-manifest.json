@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react_admin/static/css/main.514a3a04.css",
+    "main.js": "/react_admin/static/js/main.cabda403.js",
+    "static/media/discover.png": "/react_admin/static/media/discover.a47c35aa7f8ee28b7281.png",
+    "static/media/settings.png": "/react_admin/static/media/settings.0e1d8aec7a8d7e02ae41.png",
+    "static/media/support.png": "/react_admin/static/media/support.a97e45146636971d8892.png",
+    "static/media/dashboard.png": "/react_admin/static/media/dashboard.30c460755b90e2401c0b.png",
+    "static/media/users.png": "/react_admin/static/media/users.a771da345d144107a8a6.png",
+    "static/media/thomas.jpg": "/react_admin/static/media/thomas.d44ba4fb3c76e542e00e.jpg",
+    "index.html": "/react_admin/index.html",
+    "main.514a3a04.css.map": "/react_admin/static/css/main.514a3a04.css.map",
+    "main.cabda403.js.map": "/react_admin/static/js/main.cabda403.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.514a3a04.css",
+    "static/js/main.cabda403.js"
+  ]
+}
