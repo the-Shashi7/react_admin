@@ -1,0 +1,30 @@
+.trasaction-container{
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    width: 61vw;
+    border-radius: 5px;
+    background-color: white;
+    padding: 15px;
+}
+
+.top-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+}

@@ -1,0 +1,105 @@
+.graph-container{
+    height: 45vh;
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bar-container{
+    width: 30vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.total-income{
+    width: 30vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+progress{
+    width: 29.5vw;
+    height: 10px;
+}
+
+.bar-graph{
+    width: 30vw;
+    height: 25vh;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.new-user{
+    margin: 15px;
+}
+
+.graph-left{
+    width: 30vw;
+    height: 40vh;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.balance{
+    height: 7vh;
+    width: 28vw;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(221, 220, 220);
+}
+.earning-section{
+    height: 9vh;
+    width: 28vw;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: center;
+}
+
+.earning{
+    border: 1px solid rgb(221, 220, 220);
+    height: 9vh;
+    width: 11vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    border-radius: 5px;
+}
+.sales-value{
+    border: 1px solid rgb(221, 220, 220);;
+    height: 9vh;
+    width: 11vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.line-graph{
+    height: 24vh;
+    width: 31.8vw;
+    margin-left: 29px;
+}
