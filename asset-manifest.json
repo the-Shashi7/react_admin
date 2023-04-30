@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_admin/static/css/main.481083b5.css",
-    "main.js": "/react_admin/static/js/main.46ec9adf.js",
+    "main.css": "/react_admin/static/css/main.4ed832c0.css",
+    "main.js": "/react_admin/static/js/main.3b9f6f01.js",
     "static/media/discover.png": "/react_admin/static/media/discover.a47c35aa7f8ee28b7281.png",
     "static/media/settings.png": "/react_admin/static/media/settings.0e1d8aec7a8d7e02ae41.png",
     "static/media/support.png": "/react_admin/static/media/support.a97e45146636971d8892.png",
@@ -9,11 +9,11 @@
     "static/media/users.png": "/react_admin/static/media/users.a771da345d144107a8a6.png",
     "static/media/thomas.jpg": "/react_admin/static/media/thomas.d44ba4fb3c76e542e00e.jpg",
     "index.html": "/react_admin/index.html",
-    "main.481083b5.css.map": "/react_admin/static/css/main.481083b5.css.map",
-    "main.46ec9adf.js.map": "/react_admin/static/js/main.46ec9adf.js.map"
+    "main.4ed832c0.css.map": "/react_admin/static/css/main.4ed832c0.css.map",
+    "main.3b9f6f01.js.map": "/react_admin/static/js/main.3b9f6f01.js.map"
   },
   "entrypoints": [
-    "static/css/main.481083b5.css",
-    "static/js/main.46ec9adf.js"
+    "static/css/main.4ed832c0.css",
+    "static/js/main.3b9f6f01.js"
   ]
 }
