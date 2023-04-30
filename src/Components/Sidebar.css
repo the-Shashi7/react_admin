@@ -54,3 +54,30 @@
     height: 15vh;
     margin-left: 20px;
 }
+
+.icons {
+    opacity: 0.7;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .main-greater-icons{
+        display: none;
+    }
+  }
+
+
+  @media screen and (max-width: 750px) {
+    .main-elements > div{
+        display: none;
+    }
+    .extra-container>.main-elements > h5 {
+        display: none;
+    }
+    .secondary-container> .main-elements > h5{
+        display: none;
+    }
+    .logo-container > h2{
+        display: none;
+    }
+  }

@@ -63,3 +63,15 @@ span{
     font-weight: 900;
     cursor: pointer;
 }
+
+@media screen and (max-width: 700px) {
+    .search-input > input{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .profile-name {
+        display: none;
+    }
+  }

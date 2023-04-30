@@ -34,8 +34,10 @@ export default function GraphView() {
     <div className="graph-container">
       <div className="bar-container">
         <div className="total-income">
-          <h4>Total Income</h4>
-          <h1>$124,563.00 </h1>
+          <h4 style={{ color: "#898989" }}>Total Income</h4>
+          <h1>
+            $124,563.00 <span className="changes_percentage">+6.9%</span>{" "}
+          </h1>
           <progress id="file" value="67" max="100">
             {" "}
             32%{" "}
@@ -43,8 +45,10 @@ export default function GraphView() {
         </div>
         <div className="bar-graph">
           <div className="new-user">
-            <h5>New Users</h5>
-            <h1>94.2%</h1>
+            <h5 style={{ color: "#898989" }}>New Users</h5>
+            <h1>
+              94.2%<span className="changes_percentage">+6.9%</span>
+            </h1>
           </div>
           <ResponsiveContainer width="100%" height="55%">
             <BarChart
@@ -67,16 +71,24 @@ export default function GraphView() {
       <div className="graph-left">
         <div className="balance">
           <h2>Balance</h2>
-          <h3>Months</h3>
+          <select className="select_option" value="Monthely">
+            <option value="month">Monthely</option>
+            <option value="year">Yearly</option>
+            <option value="week">Weekly</option>
+          </select>
         </div>
         <div className="earning-section">
           <div className="earning">
-            <h5>Earnings</h5>
-            <h1>43.41%</h1>
+            <h5 style={{ color: "#898989" }}>Earnings</h5>
+            <h1>
+              43.41% <span style={{position:'absolute'}} className="changes_percentage">+2.5%</span>{" "}
+            </h1>
           </div>
           <div className="sales-value">
-            <h5>Sales Value</h5>
-            <h1>$95,422</h1>
+            <h5 style={{ color: "#898989" }}>Sales Value</h5>
+            <h1>
+              $95,422 <span style={{position:'absolute'}} className="changes_percentage">+13.5%</span>
+            </h1>
           </div>
         </div>
         <div className="line-graph">
