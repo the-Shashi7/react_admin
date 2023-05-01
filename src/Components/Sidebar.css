@@ -74,6 +74,9 @@
 }
 
 @media screen and (max-width: 750px) {
+  .main-elements{
+    width: 12vw;
+  }
   .main-elements > div {
     display: none;
   }
@@ -84,6 +87,12 @@
     display: none;
   }
   .logo-container > h2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .secondary-container > h5{
     display: none;
   }
 }
